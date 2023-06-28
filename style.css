@@ -12,6 +12,10 @@ a {
     color: black;
 }
 
+button {
+    font-family: "Verdana", sans-serif;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -38,13 +42,28 @@ a {
     margin: 0px 20px;
 }
 
-.btn {
+#btn {
     background-color: palevioletred;
     padding: 12px;
     font-size: 12px;
     cursor: pointer;
     font-weight: 600;
     border: 2px solid black;
+}
+
+#newgrid {
+    background-color: mediumaquamarine;
+    padding: 12px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+#size {
+    font-size: 12px;
+    font-weight: 600;
+    font-style: italic;
 }
 
 #container {
@@ -54,7 +73,7 @@ a {
     align-items: stretch;
     height: 600px;
     width: 600px;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 .row {
